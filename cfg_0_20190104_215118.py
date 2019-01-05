@@ -1,5 +1,5 @@
 import torch
-
+# 测试
 learning_rate = 1e-4
 print(torch.cuda.is_available())
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
